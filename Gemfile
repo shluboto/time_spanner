@@ -4,10 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  platforms :mswin, :mingw do
-    gem 'win32console', '1.3.0'
-  end
-
   gem 'minitest'
-  gem 'minitest-reporters'
 end
