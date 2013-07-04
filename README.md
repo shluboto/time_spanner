@@ -3,7 +3,11 @@ time_spanner
 
 Returns a time span splitted in desired units given two timestamps.
 
-[![Gem Version](https://badge.fury.io/rb/time_spanner.png)](http://badge.fury.io/rb/time_spanner) [![Code Climate](https://codeclimate.com/github/shlub/time_spanner.png)](https://codeclimate.com/github/shlub/time_spanner)
+[![Build Status](https://secure.travis-ci.org/shlub/time_spanner.png?branch=master)](http://travis-ci.org/shlub/time_spanner) ![Gem Version](https://badge.fury.io/rb/time_spanner.png)](http://badge.fury.io/rb/time_spanner) [![Code Climate](https://codeclimate.com/github/shlub/time_spanner.png)](https://codeclimate.com/github/shlub/time_spanner)
+
+## Supported rubies
+
+1.9.3, 2.0
 
 ## Installation
 
