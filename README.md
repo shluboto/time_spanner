@@ -48,7 +48,7 @@ If no units are supplied it defaults to all units.
 ### Example
 
 ```ruby
- TimeSpan.new Time.parse('2012-04-05 07:05:05'), Time.at(Time.parse(2012-04-05 07:10:12', 1243.345), [:seconds, :milliseconds, :microseconds, :nanoseconds])
+ TimeSpan.new Time.parse('2012-04-05 07:05:05'), Time.at(Time.parse('2012-04-05 07:10:12').to_r, 1243.345), [:seconds, :milliseconds, :microseconds, :nanoseconds]
 ```
 returns:
 
@@ -56,6 +56,7 @@ returns:
  {:seconds=>307, :milliseconds=>1, :microseconds=>243, :nanoseconds=>345}
 ```
 
+You can specify units in any combination.
 
 ## Contributing
 
