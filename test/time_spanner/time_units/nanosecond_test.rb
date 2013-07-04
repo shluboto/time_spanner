@@ -25,8 +25,8 @@ module TimeSpanner
       end
 
       it 'calculates amount on odd nanoseconds' do
-        from       = Time.at(DateTime.parse('2013-07-28 00:00:01').to_time, 0.021)
-        to         = Time.at(DateTime.parse('2013-07-28 00:00:01').to_time, 0.023)
+        from       = Time.at(DateTime.parse('2013-07-28 00:00:01').to_time.to_r, 0.021)
+        to         = Time.at(DateTime.parse('2013-07-28 00:00:01').to_time.to_r, 0.023)
         duration   = to.to_r - from.to_r
         nanosecond = Nanosecond.new
 
