@@ -7,7 +7,7 @@ Returns a time span splitted in desired units given two timestamps.
 
 ## Supported rubies
 
-1.9.3, 2.0
+2.4.9 - 2.7.0
 
 ## Installation
 

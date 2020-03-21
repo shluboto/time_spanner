@@ -18,7 +18,7 @@ module TimeSpanner
         day  = Day.new
         hour = Hour.new
 
-        assert_equal -1, day.<=>(hour)
+        assert_equal(-1, day.<=>(hour))
       end
 
       it "reverses!" do
@@ -29,7 +29,7 @@ module TimeSpanner
 
         second.reverse!
 
-        assert_equal -1, second.amount
+        assert_equal(-1, second.amount)
       end
 
     end

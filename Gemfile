@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in time_spanner.gemspec
-gemspec
-
-group :test do
-  gem 'minitest'
+group :development do
+  gem "rake", "~> 13.0"
+  gem "minitest", "~> 5.10"
 end
+
+gemspec
