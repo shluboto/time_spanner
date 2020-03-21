@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name = "time_spanner"
   spec.version = TimeSpanner::VERSION
   spec.authors = ["Andreas Busold"]
-  spec.email = ["an.bu@gmx.net"]
+  spec.email = ["andreas.busold@gmail.com"]
   spec.description = "Returns a time span splitted in desired units given two timestamps."
   spec.summary = "Returns a time span splitted in desired units given two timestamps."
   spec.homepage = "https://github.com/shlub/time_spanner/"
