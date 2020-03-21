@@ -1,7 +1,7 @@
 time_spanner
 ============
 
-Returns a time span split into desired units given two timestamps.
+Returns a time span, split into desired units, given two timestamps.
 
 [![Build Status](https://secure.travis-ci.org/shlub/time_spanner.png?branch=master)](http://travis-ci.org/shlub/time_spanner)
 [![Gem Version](https://badge.fury.io/rb/time_spanner.png)](http://badge.fury.io/rb/time_spanner)
