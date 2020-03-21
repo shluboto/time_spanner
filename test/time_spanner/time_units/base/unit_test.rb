@@ -1,11 +1,9 @@
-require 'test_helper'
+require "test_helper"
 
 module TimeSpanner
   module TimeUnits
-
     class UnitTest < TestCase
-
-      it 'initializes' do
+      it "initializes" do
         time_unit = Unit.new(1)
 
         assert time_unit.is_a?(Unit)
@@ -15,7 +13,7 @@ module TimeSpanner
       end
 
       it "compares: Day should be in front of Hour" do
-        day  = Day.new
+        day = Day.new
         hour = Hour.new
 
         assert_equal(-1, day.<=>(hour))
@@ -31,7 +29,6 @@ module TimeSpanner
 
         assert_equal(-1, second.amount)
       end
-
     end
   end
 end

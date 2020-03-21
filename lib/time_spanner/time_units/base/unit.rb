@@ -1,16 +1,15 @@
 module TimeSpanner
   module TimeUnits
-
     class Unit
       include Comparable
 
-      attr_reader   :position
+      attr_reader :position
       attr_accessor :duration, :amount, :rest
 
-      def initialize position
+      def initialize(position)
         @position = position
-        @amount   = 0
-        @rest     = 0
+        @amount = 0
+        @rest = 0
       end
 
       def reverse!
@@ -22,10 +21,8 @@ module TimeSpanner
       end
 
       def plural_name
-        "#{self.class.name.split('::').last.downcase}s".to_sym
+        "#{self.class.name.split("::").last.downcase}s".to_sym
       end
-
     end
   end
-
 end
