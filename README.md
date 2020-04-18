@@ -11,7 +11,7 @@ Returns a time span, split into desired units, given two timestamps.
 
 ## Supported rubies
 
-2.4.9 - 2.7.0
+2.5.8 - 2.7.1
 
 ## Installation
 
