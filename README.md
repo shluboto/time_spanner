@@ -11,7 +11,7 @@ Returns a time span, split into desired units, given two timestamps.
 
 ## Supported rubies
 
-2.5.8 - 2.7.1
+2.5.8 and above
 
 ## Installation
 
@@ -35,24 +35,24 @@ require "time_spanner"
 from = Time.parse("2012-04-05 07:05:05")
 to = Time.parse("3024-11-14 12:06:49")
 
-TimeSpan.new(from, to) 
+TimeSpan.new(from, to)
 ```
 returns:
 
 ```ruby
 {
-  millenniums: 1, 
-  centuries: 0, 
-  decades:1, 
-  years: 2, 
-  months: 7, 
-  weeks: 1, 
-  days: 2, 
-  hours: 6, 
-  minutes: 1, 
-  seconds: 44, 
-  milliseconds: 0, 
-  microseconds: 0, 
+  millenniums: 1,
+  centuries: 0,
+  decades:1,
+  years: 2,
+  months: 7,
+  weeks: 1,
+  days: 2,
+  hours: 6,
+  minutes: 1,
+  seconds: 44,
+  milliseconds: 0,
+  microseconds: 0,
   nanoseconds: 0,
 }
 ```
@@ -96,9 +96,9 @@ returns:
 
 ```ruby
 {
-  seconds: 307, 
-  milliseconds: 1, 
-  microseconds: 243, 
+  seconds: 307,
+  milliseconds: 1,
+  microseconds: 243,
   nanoseconds: 345,
 }
 ```
